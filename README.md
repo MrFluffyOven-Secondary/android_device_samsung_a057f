@@ -1,2 +1,9 @@
-# android_device_samsung_a057f
-Work in progress | A057F | Galaxy a05s
+# Android device tree for samsung SM-A057F (a05s)
+
+# Clone
+    git clone https://github.com/TheNoobDevs/android_device_samsung_a057f.git -b twrp-12.1 device/samsung/a05s
+
+# Build
+    ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_a05s-eng; mka recoveryimage
+# Contributors
+- [FathanIhdhar296](https://github.com/FathanIhdhar296)
